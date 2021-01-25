@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Box Model Using CSS Flex</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .back {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+        .back a {
+            font-size: 22px;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="circle"></div>
+        <div class="content">
+            <h2>Pepsi Cola</h2>
+            <p>Buna, eu sunt o cutie de Pepsi rece si buna, dar in aplicatie voi fi un produs cosmetic, probabil.</p>
+            <a href="#">Cumpara-ma acum!</a>
+        </div>
+        <img src="pepsi_can.png">
+    </div>
+
+    <div class="back">
+        <a href="javascript:history.go(-1)">Inapoi la meniul principal</a>
+    </div>
+    
+</body>
+</html>
