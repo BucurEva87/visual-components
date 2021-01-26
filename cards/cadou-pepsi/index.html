@@ -12,11 +12,21 @@
         <div class="circle"></div>
         <div class="content">
             <h2>Tratament dureri dinti</h2>
-            <p>Pentru o sanatate orala de top consumati o doza de Pepsi iesit din minti, fiti cat de dobitoci se poate in main si stati fara bani in casa - in cazul in care aveti nevoie de ingrijiri stomatologice urgente sa nu aveti cu ce le plati si sa apelati la metoda "Unde sunt clientii mei? Ca durerea nu trece cu tratament, trece daca sunt un jeg cu oamenii cu care impart chatul".</p>
-            <a href="#">Cumpara-ma acum!</a>
+            <p>Bea Pepsi zilnic si fii un jeg cu oamenii cu care imparti chatul. S-ar putea sa merite. Pentru sanatatea dumneavoastra orala nu va duceti la stomatolog (ca n-aveti bani), cautati "clienti" in chat de care sa va luati in nebunia voastra!</p>
+            <a href="#" id="button">Start durere dinti!</a>
         </div>
         <img src="pepsi_can.png">
     </div>
+
+    <script>
+        const button = document.querySelector('#button');
+
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            alert('/nick Pepsi');
+        });
+    </script>
     
 </body>
 </html>
