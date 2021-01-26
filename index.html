@@ -3,11 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>:))</title>
+    <title>Tabel al tuturor componentelor</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #111;
+        }
+
+        .container { 
+            text-align: center;
+            color: #ddd;
+        }
+        .container h1 {
+            margin: 15px auto;
+        }
+
+        .container .list {
+            margin: 7px auto;
+        }
+        .container .list h2 {
+            margin-bottom: 10px;
+        }
+        .container .list ul {
+            list-style-type: none;
+        }
+        .container .list ul li a {
+            text-decoration: none;
+        }
+        .container .list ul li a:link,
+        .container .list ul li a:active,
+        .container .list ul li a:visited {
+            color: #eee;
+            font-size: 18px;
+        }
+        .container .list ul li a:hover {
+            color: red;
+        }
+    </style>
 </head>
 <body>
     
-    <div><p>Stiu ca sunteti curiosi, dar nu aveti ce vedea aici :)</p></div>
+    <div class="container">
+        <h1>Tabel al tuturor componentelor</h1>
+
+        <div class="list">
+            <h2>Carduri</h2>
+
+            <ul>
+                <li>
+                    <a href="cards/responsive-card-hover/">
+                        Card responsiv hover (v 1.0)
+                    </a>
+                </li>
+                <li>
+                    <a href="cards/responsive-card-hover2/">
+                        Card responsiv hover 2 (v 1.0)
+                    </a>
+                </li>
+                <li>
+                    <a href="cards/glassmorphism/">
+                        Card responsiv sticlomorfism (v 1.0)
+                    </a>
+                </li>
+                <li>
+                    <a href="cards/debit/">
+                        Card debit backflip (v 1.0)
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <h2>Tranzitii</h2>
+
+            <ul>
+                <li>
+                    <a href="transitions/background-transition/">
+                        Tranzitie background (imagine) (v 1.0)
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 </html>
